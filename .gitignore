@@ -1,0 +1,10 @@
+/**/target/
+.idea/
+/gp-message.iml
+/gp-message-api/gp-message-api.iml
+/gp-message-common/gp-message-common.iml
+/gp-message-sender/gp-message-sender.iml
+/gp-message-client/gp-message-client.iml
+/gp-message-server/gp-message-server.iml
+logs
+/**/.flattened-pom.xml
