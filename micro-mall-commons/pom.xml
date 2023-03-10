@@ -7,18 +7,20 @@
     <version>${revision}</version>
   </parent>
   
-  <artifactId>micro-mall-service</artifactId>
+  <artifactId>micro-mall-commons</artifactId>
   <packaging>pom</packaging>
   
-  <name>micro-mall-service</name>
-  <description>微商城服务</description>
+  <name>micro-mall-util</name>
+  <description>微商城公共组件</description>
+  <modules>
+    <module>micro-mall-commons-core</module>
+    <module>micro-mall-commons-autoconfigure</module>
+  </modules>
   
   <dependencies>
     <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-devtools</artifactId>
-      <scope>runtime</scope>
-      <optional>true</optional>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
     </dependency>
   </dependencies>
 </project>

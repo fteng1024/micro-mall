@@ -3,14 +3,12 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.fly</groupId>
-    <artifactId>micro-mall</artifactId>
+    <artifactId>micro-mall-commons</artifactId>
     <version>${revision}</version>
   </parent>
   
-  <artifactId>micro-mall-gateway</artifactId>
-  <packaging>pom</packaging>
+  <artifactId>micro-mall-commons-core</artifactId>
   
-  <name>micro-mall-gateway</name>
-  <description>微商城网关</description>
-
+  <name>micro-mall-commons-core</name>
+  
 </project>

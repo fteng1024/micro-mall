@@ -11,4 +11,5 @@
   <packaging>pom</packaging>
   
   <name>micro-mall-web</name>
+  <description>微商城控制器</description>
 </project>

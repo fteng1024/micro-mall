@@ -9,7 +9,7 @@
   
   <artifactId>micro-mall-api</artifactId>
   <packaging>pom</packaging>
-  <description>API，提供远程调用接口</description>
+  <description>微商城API</description>
   
   <name>micro-mall-api</name>
 </project>

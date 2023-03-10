@@ -3,12 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.fly</groupId>
-    <artifactId>micro-mall</artifactId>
+    <artifactId>micro-mall-commons</artifactId>
     <version>${revision}</version>
   </parent>
   
-  <artifactId>micro-mall-util</artifactId>
-  <packaging>pom</packaging>
+  <artifactId>micro-mall-commons-autoconfigure</artifactId>
   
-  <name>micro-mall-util</name>
+  <name>micro-mall-commons-autoconfigure</name>
 </project>
