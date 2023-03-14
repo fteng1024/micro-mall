@@ -10,6 +10,17 @@
   <artifactId>micro-mall-api</artifactId>
   <packaging>pom</packaging>
   <description>微商城API</description>
+  <modules>
+    <module>goods-api</module>
+  </modules>
   
   <name>micro-mall-api</name>
+  
+  <dependencies>
+    <dependency>
+      <groupId>com.baomidou</groupId>
+      <artifactId>mybatis-plus-boot-starter</artifactId>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
 </project>
